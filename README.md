@@ -10,7 +10,7 @@ Personal computer with Keil software
 
 **PROGRAM:**
 
-**(i)	Serial port transfer a character B**
+**(i)	Serial port transfer a character A**
 
 #include<reg51.h> void main(void)
 
@@ -22,7 +22,7 @@ SCON=0X50; TR1=1;
 
 while(1)
 
-{ SBUF='B';
+{ SBUF='A';
 
 while(TI==0); TI=0;
 
@@ -56,7 +56,7 @@ while(1);
 
  
 OUTPUT:
-<img width="772" height="391" alt="Screenshot 2025-10-29 094257" src="https://github.com/user-attachments/assets/902a307c-334c-432f-8db3-a5dc74f4e1b5" />
+![WhatsApp Image 2025-11-02 at 21 01 10_8fd5f289](https://github.com/user-attachments/assets/92de9d1e-3ffb-44d5-bf80-c6089f9a1bcf)
 
 
 ![WhatsApp Image 2025-10-29 at 09 44 56_dd769193](https://github.com/user-attachments/assets/22ec4f44-741c-47bd-803f-afae634bce4d)
